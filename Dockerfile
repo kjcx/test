@@ -1,6 +1,6 @@
 FROM alpine
 
 WORKDIR /app
-COPY main /app/main
+COPY main .
 RUN chmod +x /app/main
-CMD ["/app/main"]
+CMD ["./main"]
