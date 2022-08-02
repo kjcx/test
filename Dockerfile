@@ -1,6 +1,6 @@
 FROM alpine
 
 WORKDIR /app
-RUN cp main main
+RUN COPY main main
 
 CMD ["./main"]
